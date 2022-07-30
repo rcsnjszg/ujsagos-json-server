@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Napilapok</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        body {
+            background: lightskyblue;
+            background-attachment: fixed;
+        }
+    </style>
+  </head>
+  <body>
+
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-12">
+                <h1>Napilapok</h1>
+            </div>
+        </div>
+
+        <div class="row align-items-center my-3">
+            <div class="col-lg-6">
+                <div class="alert alert-info my-0">
+                    <div class="row">
+                        <div class="col-2 d-grid">
+                            <button class="btn btn-info disabled">GET</button>
+                        </div>
+                        <div class="col-10 align-items-center d-flex">
+                            <a href="http://localhost:8888/api/napilapok" class="text-decoration-none text-reset font-monospace">/napilapok</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-lg-6 py-2">
+                <p>Az összes űrlap listázása.</p>
+            </div>
+        </div>
+
+        <div class="row align-items-center my-3">
+            <div class="col-lg-6">
+                <div class="alert alert-info my-0">
+                    <div class="row">
+                        <div class="col-2 d-grid">
+                            <button class="btn btn-info disabled">GET</button>
+                        </div>
+                        <div class="col-10 align-items-center d-flex">
+                            <a href="http://localhost:8888/api/napilapok/1" class="text-decoration-none text-reset font-monospace">/napilapok/{id}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-lg-6">
+                <p>A megadott azonosítójú napilap listázása.</p>
+            </div>
+        </div>
+
+        <div class="row align-items-center my-3">
+            <div class="col-lg-6">
+                <div class="alert alert-success my-0">
+                    <div class="row">
+                        <div class="col-2 d-grid">
+                            <button class="btn btn-success disabled">POST</button>
+                        </div>
+                        <div class="col-10 align-items-center d-flex">
+                            <a href="#" class="text-decoration-none text-reset font-monospace">/napilapok</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-lg-6 py-2">
+                <p>Új napilap felvitele az adatbázisba.</p>
+            </div>
+        </div>
+  
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

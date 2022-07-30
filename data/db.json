@@ -1,10 +1,76 @@
 {
-  "posts": [
-    { "id": 1, "title": "Lorem ipsum", "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-    { "id": 2, "title": "Sed et semper lectus", "content": "Nullam non quam et dui pharetra faucibus id vel libero."}
-  ],
-  "comments": [
-    { "id": 1, "text": "baz", "post_id": 1 },
-    { "id": 1, "text": "qux", "post_id": 2 }
+  "napilapok": [
+    {
+      "id": 1,
+      "cim": "Népszava ",
+      "alapitva": 1877,
+      "kiado": "XXI. Század Média Kft. ",
+      "peldany": 20122,
+      "tematika": "politika, közélet "
+    },
+    {
+      "id": 2,
+      "cim": "Magyar Nemzet ",
+      "alapitva": 2019,
+      "kiado": "Magyar Idők Kiadó Kft. ",
+      "peldany": null,
+      "tematika": "politika, közélet "
+    },
+    {
+      "id": 3,
+      "cim": "Magyar Hírlap ",
+      "alapitva": 1968,
+      "kiado": "Magyar Hírlap Kiadói Kft. ",
+      "peldany": 8000,
+      "tematika": "politika, közélet "
+    },
+    {
+      "id": 4,
+      "cim": "Blikk ",
+      "alapitva": 1994,
+      "kiado": "Ringier Axel Springer Magyarország Kft. ",
+      "peldany": 80000,
+      "tematika": "bulvár "
+    },
+    {
+      "id": 5,
+      "cim": "Bors ",
+      "alapitva": 2007,
+      "kiado": "Mediaworks Hungary Zrt. ",
+      "peldany": 50000,
+      "tematika": "bulvár, politika "
+    },
+    {
+      "id": 6,
+      "cim": "Ripost ",
+      "alapitva": 2016,
+      "kiado": "Mediaworks Hungary Zrt. ",
+      "peldany": null,
+      "tematika": "bulvár, politika "
+    },
+    {
+      "id": 7,
+      "cim": "Nemzeti Sport ",
+      "alapitva": 1903,
+      "kiado": "Mediaworks Hungary Zrt. ",
+      "peldany": 27835,
+      "tematika": "sport "
+    },
+    {
+      "id": 8,
+      "cim": "Világgazdaság ",
+      "alapitva": 1969,
+      "kiado": "Mediaworks Hungary Zrt. ",
+      "peldany": null,
+      "tematika": "gazdaság, politika"
+    },
+    {
+      "cim": "SÓ ",
+      "alapitva": 2022,
+      "kiado": "Mediaworks Hungary Zrt. ",
+      "peldany": 50000,
+      "tematika": "bulvár, politika ",
+      "id": 9
+    }
   ]
 }
