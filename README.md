@@ -5,7 +5,7 @@ A https://github.com/typicode/json-server dockerbe csomagolva és személyre sza
 # Futtatás
 
 ```bash
-docker run --name ujsagos -v $(pwd):/server -d --rm -p 8888:80 json-server
+docker run --name ujsagos -v $(pwd):/server -d --rm -p 8888:80 rcsnjszg/ujsagos-json-server
 ```
 
  - `-name`: a megadott nével lehet hivatkozni későbbiekben a konténerre
@@ -18,5 +18,5 @@ docker run --name ujsagos -v $(pwd):/server -d --rm -p 8888:80 json-server
 # Build
 
 ```
-docker build -t rcsnjszg/json-server .
+docker build -t rcsnjszg/ujsagos-json-server .
 ```
